@@ -13,6 +13,8 @@ Here in this app we can create a todo, read todos, update todo and delete todo.
 
 **To Delete** : Click on delete icon.
 
+**Note: Press esc key to clear input**
+
 Client is deployed using netlify.
 
 Server is deployed using heroku.
