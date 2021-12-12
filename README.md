@@ -9,7 +9,7 @@ Here in this app we can create a todo, read todos, update todo and delete todo.
 
 **To Create** : We need to enter title and description and click on add.
 
-**To Update** : We need to click on todo title.
+**To Update** : We need to click on todo.
 
 **To Delete** : Click on delete icon.
 
