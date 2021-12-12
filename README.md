@@ -1,6 +1,6 @@
 # MERN-todo-app
 
-<a href="https://61b5ec30722d4f8c805f518f--2711bharath-mern-todo-app.netlify.app/" target="_top"> **View Demo** </a>
+<a href="https://2711bharath-mern-todo-app.netlify.app/"> **View Demo** </a>
 
 
 Using MongoDB, Express, React and NodeJs created a todo app.
