@@ -39,13 +39,17 @@ function App() {
 
   const onSubmitHandler = async(e) => {
     e.preventDefault();
-    if(currentId === 0) {
-      const res = await createTodo(todo);
-      setTodos([...todos, res]);
-      clear();
+    if(todo.title === '' || todo.content == '') {
+      alert("Enter input in given feilds")
     } else {
-      await updateTodo(currentId, todo)
-      clear();
+      if(currentId === 0) {
+        const res = await createTodo(todo);
+        setTodos([...todos, res]);
+        clear();
+      } else {
+        await updateTodo(currentId, todo)
+        clear();
+      }
     }
   }
 
