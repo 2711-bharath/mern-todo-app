@@ -90,8 +90,8 @@ function App() {
             {
               !todos? <Preloader />: todos.length > 0 ? <ul className='collection mt-3'>
                 {todos.map((todo) => (
-                      <li key={todo._id} className="collection-item px-4  py-2">
-                        <h5 className="fw-normal mb-2" onClick={() => setCurrentId(todo._id)}>{todo.title}</h5>
+                      <li key={todo._id} className="collection-item px-4  py-2" onClick={() => setCurrentId(todo._id)}>
+                        <h5 className="fw-normal mb-2">{todo.title}</h5>
                         <p>{todo.content}
                           <a href='#!' className="secondary-content" onClick={() => removeTodo(todo._id)}><i className="material-icons">delete</i></a>
                         </p>
